@@ -123,7 +123,7 @@ a {
     #menu .navegation {
         width: 20vw;
         font-size: 1.0rem;
-        padding: 10px;
+        padding: 0px;
         color: var(--secundary-color);
         font-weight: 700;}
 
@@ -209,6 +209,73 @@ a {
         position: absolute;
         padding: 50px;
         margin-left: 200px;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+    }
+
+    .content .content-form header {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .content p {
+        margin: 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .content .example {
+        margin-left: 20px;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    
+    .content .tag {
+        display: block;
+        align-items: center;
+        margin-left: 20px;
+        font-weight: normal;
+        font-size: 1rem;
+        background-color: var(--hover-color);
+        padding-left: 10px;
+    }
+}
+        
+@media (min-width: 1025px){
+
+    #menu {
+        position: fixed;
+        background: var(--bg-color);
+        height: 100vw;
+        width: 20vw;
+        border-right: 2px solid #000;
+    }
+
+    #menu .head h1 {
+        font-size: 2rem;
+        padding: 10px;
+        color: var(--js-color);
+    }
+    
+    #menu .navegation {
+        width: 20vw;
+        font-size: 1.2rem;
+        padding: 10px;
+        color: var(--secundary-color);
+        font-weight: 700;}
+
+    #menu .navegation:hover {
+        background-color: var(--hover-color);
+        font-size: 1.3rem;
+        transition: 500ms;
+        
+    }
+    
+    #menu .navegation:not(.last) {
+        border-bottom: 2px solid #000;
+    }
+    .content {
+        position: absolute;
+        padding: 50px;
+        margin-left: 310px;
         margin-bottom: 20px;
         color: var(--primary-color);
     }
