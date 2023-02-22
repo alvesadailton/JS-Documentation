@@ -123,7 +123,7 @@ a {
     #menu .navegation {
         width: 20vw;
         font-size: 1.0rem;
-        padding: 2px;
+        padding: 10px;
         color: var(--secundary-color);
         font-weight: 700;}
 
